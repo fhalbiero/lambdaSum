@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/sum",
+      "lambdaFunction": "lambdsum",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/sum"
+    }
+  ],
+  "resourceName": "lambdasumapi",
+  "apiName": "lambdasumapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "lambdsum"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-lambdasum-dev-103509-authRole",
+    "unAuthRoleName": "amplify-lambdasum-dev-103509-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "lambdsum",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lambdasum-dev-103509-authRole",
+      "UnauthRoleArn": "arn:aws:iam::875406027432:role/amplify-lambdasum-dev-103509-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::875406027432:role/amplify-lambdasum-dev-103509-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-lambdasum-dev-103509-deployment",
+      "UnauthRoleName": "amplify-lambdasum-dev-103509-unauthRole",
+      "StackName": "amplify-lambdasum-dev-103509",
+      "StackId": "arn:aws:cloudformation:us-east-2:875406027432:stack/amplify-lambdasum-dev-103509/b08552e0-da92-11eb-9dc8-062108800c74",
+      "AmplifyAppId": "dhnoye0i2nrw3"
+    },
+    "categories": {
+      "function": {
+        "lambdsum": {
+          "deploymentBucketName": "amplify-lambdasum-dev-103509-deployment",
+          "s3Key": "amplify-builds/lambdsum-556a652b496d71754951-build.zip"
+        }
+      }
+    }
+  }
+}
